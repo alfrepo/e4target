@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="luna" sequenceNumber="37">
+<?pde version="3.8"?><target name="luna" sequenceNumber="38">
 <locations>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
 <unit id="org.eclipse.nebula.widgets.nattable.core.feature.feature.group" version="0.0.0"/>
@@ -29,6 +29,11 @@
 <unit id="org.eclipse.equinox.p2.user.ui.feature.group" version="2.2.0.v20150129-0838"/>
 <unit id="org.eclipse.equinox.executable.feature.group" version="3.6.102.v20150204-1316"/>
 <repository location="http://download.eclipse.org/eclipse/updates/4.4"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.e4.core.tools.feature.feature.group" version="0.14.0.v20141225-1728"/>
+<unit id="org.eclipse.e4.tools.spies.feature.feature.group" version="0.1.0.v20141219-1152"/>
+<repository location="http://download.eclipse.org/e4/downloads/drops/S-0.17-201501051100/repository/"/>
 </location>
 </locations>
 </target>
