@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="mars" sequenceNumber="53">
+<?pde version="3.8"?><target name="mars" sequenceNumber="54">
 <locations>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
 <unit id="org.slf4j.api" version="0.0.0"/>
 <unit id="org.apache.commons.logging" version="0.0.0"/>
-<unit id="org.apache.commons.lang3" version="0.0.0"/>
+<unit id="org.apache.commons.lang" version="0.0.0"/>
+<unit id="org.apache.commons.collections" version="0.0.0"/>
 <repository location="http://download.eclipse.org/tools/orbit/downloads/drops/R20150519210750/repository/"/>
 </location>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
@@ -31,6 +32,10 @@
 <unit id="org.eclipse.nebula.widgets.nattable.core.source.feature.feature.group" version="0.0.0"/>
 <unit id="org.eclipse.nebula.widgets.nattable.core.feature.feature.group" version="0.0.0"/>
 <repository location="http://download.eclipse.org/nattable/releases/1.3.0/repository/"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
+<unit id="de.updatesite.customplugins.feature.feature.group" version="1.0.0.-20150912-2001"/>
+<repository location="http://localhost:8080/p2updatesite/"/>
 </location>
 </locations>
 </target>
